@@ -21,7 +21,7 @@ This is the documentation of this module
 
 ## How to use
 
-We have one function
+We have one function.
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
 
