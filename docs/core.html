@@ -94,6 +94,82 @@ summary: "This is an example of how to use nbdev."
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Classes">Classes<a class="anchor-link" href="#Classes">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">hiSayer</span><span class="p">:</span>
+    <span class="s2">&quot;class that spams hi&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">to</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">to</span><span class="o">=</span><span class="n">to</span>
+    <span class="k">def</span> <span class="nf">say</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s2">&quot;calls function to say hi&quot;</span>
+        <span class="k">return</span> <span class="n">say_hi</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">to</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="hiSayer" class="doc_header"><code>class</code> <code>hiSayer</code><a href="https://github.com/fastai/nbdev_tutorial/tree/master/nbdev_tutorial/core.py#L11" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>hiSayer</code>(<strong><code>to</code></strong>)</p>
+</blockquote>
+<p>class that spams hi</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sayer</span> <span class="o">=</span> <span class="n">hiSayer</span><span class="p">(</span><span class="s2">&quot;Alex&quot;</span><span class="p">)</span>
+<span class="n">sayer</span><span class="o">.</span><span class="n">say</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Hi Alex&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 </div>
  
 
