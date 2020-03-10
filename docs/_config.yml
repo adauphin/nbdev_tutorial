@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 repository: fastai/nbdev_tutorial
 output: web
 topnav_title: nbdev_tutorial
@@ -60,3 +61,6 @@ sidebars:
 - home_sidebar
 
 theme: jekyll-theme-cayman
+=======
+theme: jekyll-theme-time-machine
+>>>>>>> master
